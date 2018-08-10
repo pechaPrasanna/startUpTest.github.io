@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+  
+}
+
+
+body {
+  background-position: center;
+  background-image: url("laptop.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+	text-align: center;
+	font-size: 2rem;
+	color: #35333E;
+}
+
+hr {
+ 	max-width: 65px;
+  	border-width: 3px;
+ 	border-color: #1F1C2A; 
+ 	margin-top: 300px;
+ 	margin-bottom: 50px;
+
+}
+
+.btn{
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	padding: 1rem 2rem;
+	border-color: #6E6C77;
+	background-color: #35333E;
+
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+}
+
+.btn:hover{
+	background-color: #52505C;
+	border-color: #1F1C2A;
+	border-width: 3px;
+	
+}
+
